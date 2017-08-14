@@ -1,0 +1,120 @@
+body{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+
+.mainHeader{
+	
+	height: 100px;
+	color: #FFFFFF;
+	background-color: #5280FF;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 36pt;
+}
+
+.mainHeader .headerText{
+	padding-top: 45px;
+	padding-left: 20px;
+}
+
+.headerVersion{
+	font-size: 18pt;
+	color: #FFFFFF;
+}
+
+.mainContent{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	width: 800px;
+	padding: 10px 0px 0px 5px;
+}
+
+.mainNav{
+	background-color: #5280FF;
+	color: #FFFFFF;
+	border-style: solid;
+	border-color: #000000;
+	border-width: thin;
+}
+
+.welcome{
+	width: 600px;	
+	font-size: 10pt;
+	font-weight: bold;	
+}
+
+.strikeIt{
+	text-decoration: line-through;
+}
+
+.normalText{
+	font-size: 10pt;
+}
+
+.row{
+	display: table-row;
+	padding: 3px 0px 3px 0px;
+}
+
+.lcell{
+	display: table-cell;
+	padding: 0px 5px 5px 5px;
+	margin: 0px 5px 5px 5px;
+	width: 100px;
+	vertical-align: top;
+}
+
+.rcell{
+	display: table-cell;
+	padding: 0px 5px 5px 5px;
+	margin: 0px 5px 5px 5px;
+	width: 280px;
+	vertical-align: top;
+}
+
+#itemGrid td{
+	padding: 5px 5px 5px 5px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#itemGrid th{
+	text-align: left;
+	background-color: #5280FF;
+	color: #FFFFFF;
+	padding: 5px 5px 5px 5px;
+	border: 1px solid #000000;
+}
+
+.btnLarge {
+	display: block;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: bold;
+	width: 150px;
+	padding: 3px 3px 3px 3px;
+	background-color: #00CC33;
+	margin: 3px 3px 3px 3px;
+	border: 1px solid #000000;
+	text-align: center;
+}
+
+.btnSmall {
+	display: block;
+	float: left;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: bold;
+	width: 50px;
+	padding: 3px 10px 3px 10px;
+	background-color: #00CC33;
+	margin: 3px 3px 3px 3px;
+	border: 1px solid #000000;
+	text-align: center;
+}
+
+.headerDisplay{
+	font-size: 18pt;
+	margin-bottom: 15px;
+	color: #5280FF;
+}
